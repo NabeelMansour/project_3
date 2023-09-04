@@ -10,19 +10,12 @@ body {
 
 /* header */
 
-/* header {
-  width: 90vw;
-  max-width: 1300px;
-  margin: 0 auto;
-} */
-
 .header-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90vw;
+  width: 80vw;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .nav li {
@@ -40,8 +33,7 @@ body {
   font-size: 30px;
   font-style: normal;
   font-weight: 900;
-  line-height: 160%;
-  /* 48px */
+  line-height: 5.3;
   letter-spacing: -0.6px;
   text-decoration: none;
 }
@@ -82,7 +74,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 12px;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -105,6 +97,8 @@ section {
 
 img {
   display: block;
+  width: 100%;
+  max-width: 800px;
   margin-right: -10rem;
   margin-left: 5rem;
 }
@@ -116,13 +110,13 @@ img {
   line-height: 2rem;
   letter-spacing: 0.4px;
   color: #9A9A9A;
-  width: 530px;
+  max-width: 530px;
   margin-top: -3rem;
 }
 
 .section-content .first-text {
   font-size: 4.5rem;
-  width: 530px;
+  max-width: 530px;
   font-style: normal;
   font-weight: 400;
   font-family: 'Ramaraja', serif;
