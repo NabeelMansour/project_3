@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+/* header {
+  width: 90vw;
+  max-width: 1300px;
+  margin: 0 auto;
+} */
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 2rem;
+  color: #1B0A42;
+}
+
+.nav .home {
+  margin-left: 6rem;
+}
+
+.logo {
+  color: #0A1B32;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  /* 48px */
+  letter-spacing: -0.6px;
+  text-decoration: none;
+}
+
+.dot {
+  color: #FC569A;
+  font-family: Circular Std;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  letter-spacing: -0.6px;
+}
+
+.sign-in {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.sign-in span {
+  display: inline-block;
+  margin-right: 2rem;
+  color: #1B0A42;
+}
+
+.btn {
+  background: #FC569A;
+  color: #fff;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+/* section */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 12px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 6rem);
+  gap: 4rem;
+
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 581px;
+}
+
+img {
+  display: block;
+  margin-right: -10rem;
+  margin-left: 5rem;
+}
+
+.section-content p:nth-child(2) {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.4px;
+  color: #9A9A9A;
+  width: 530px;
+  margin-top: -3rem;
+}
+
+.section-content .first-text {
+  font-size: 4.5rem;
+  width: 530px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Ramaraja', serif;
+  line-height: 76px;
+  letter-spacing: 1.44px;
+  color: #1B0A42;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.content-btn {
+  padding: 0.8rem 1.7rem;
+  font-size: 1rem;
+  Line-height: 32px;
+  margin-top: -1.5rem;
+}
